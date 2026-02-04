@@ -1,0 +1,33 @@
+.container h3,
+p {
+  font-size: 0.875rem;
+}
+
+.container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.articles-list {
+  display: block;
+}
+
+.articles-list li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.articles-list li img {
+  width: 110px;
+  height: 80px;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.carousel {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}

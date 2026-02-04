@@ -1,0 +1,1 @@
+Projeto para treinar conceitos/técnicas/comandos/ideias de HTML, CSS e JS vistos em minhas aulas de desenvolvimento web.
