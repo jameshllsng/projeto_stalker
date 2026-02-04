@@ -1,16 +1,53 @@
+.container {
+  padding: 40px 20px;
+  width: 1238px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container img {
+  border: 4px solid black;
+  border-radius: 4px;
+}
+
 .container h3,
 p {
   font-size: 0.875rem;
 }
 
-.container {
+.carousel {
+  display: block;
+  margin-top: 10px;
+  margin-left: 328px;
   padding: 40px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
+  width: 910px;
+  /* margin: 0 auto; */
+  background-color: blue;
+  position: relative;
+}
+
+.articles {
+  padding: 10px;
+  background-color: green;
+}
+
+.articles a {
+  text-decoration: none;
+}
+
+.articles p {
+  line-height: 1.125rem;
+  font-size: 0.75rem;
+}
+
+.articles h3 {
+  line-height: 1.125rem;
+  font-size: 0.881rem;
 }
 
 .articles-list {
+  max-width: 910px;
+  padding: 10px;
   display: block;
 }
 
@@ -20,14 +57,38 @@ p {
 }
 
 .articles-list li img {
-  width: 110px;
-  height: 80px;
+  width: 120px;
+  height: 90px;
   align-self: center;
   margin-right: 10px;
 }
 
-.carousel {
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+.popular {
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px;
+  top: 118px;
+  right: 328px;
+  position: absolute;
+  background-color: blueviolet;
+}
+
+.popular-content {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.popular-list h3,
+p {
+  font-size: 0.825rem;
+}
+
+.popular-list li {
+  display: flex;
+  margin-top: 10px;
+}
+
+.popular-list li img {
+  width: 68px;
+  height: 45px;
 }
