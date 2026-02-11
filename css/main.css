@@ -22,13 +22,13 @@ p {
   padding: 40px 20px;
   width: 910px;
   /* margin: 0 auto; */
-  background-color: blue;
+  border: 1px solid red;
   position: relative;
 }
 
 .articles {
   padding: 10px;
-  background-color: green;
+  border: 1px solid red;
 }
 
 .articles a {
@@ -70,7 +70,7 @@ p {
   top: 118px;
   right: 328px;
   position: absolute;
-  background-color: blueviolet;
+  border: 1px solid red;
 }
 
 .popular-content {

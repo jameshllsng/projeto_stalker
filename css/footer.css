@@ -1,5 +1,51 @@
 .subscribe {
   padding: 40px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 910px;
+  margin-left: 328px;
+  /* margin: 0 auto; */
+  border: 1px solid red;
+  margin-bottom: 1000px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+input {
+  display: block;
+  padding: 5px 10px;
+  border-color: #00ff00;
+  border-radius: 4px;
+}
+
+.newsletter {
+  margin-left: 0px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter label {
+  display: initial;
+}
+
+.newsletter input {
+  height: 20px;
+  width: 20px;
+  display: initial;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: white;
+}
+
+button:hover {
+  border-color: #00ff00;
 }
