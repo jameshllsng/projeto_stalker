@@ -1,0 +1,33 @@
+.popular {
+  /* max-width: 280px; */
+}
+
+.popular-list {
+  border: 3px solid var(--cor-12);
+  padding: 10px;
+}
+
+.popular-list li {
+  display: flex;
+  text-align: start;
+  margin-bottom: 10px;
+}
+
+.popular-list li:nth-child(odd) {
+  background-color: var(--cor-1);
+}
+
+.popular-list img {
+  width: 80px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.popular-content {
+  text-align: start;
+  align-content: center;
+}
+
+.popular-text {
+  font-size: 0.9rem;
+}
