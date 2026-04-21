@@ -1,7 +1,9 @@
-@import "./global.css";
-@import "./header.css";
-@import "./main.css";
-@import "./popular.css";
-@import "./footer.css";
-@import "./responsive.css";
-@import "./cores.css";
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+@import "./main/main.css";
+@import "./main/popular.css";
+
+@import "./utilities/colors.css";
+@import "./utilities/typography.css";
